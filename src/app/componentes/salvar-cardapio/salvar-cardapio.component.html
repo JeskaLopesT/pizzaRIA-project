@@ -1,0 +1,39 @@
+<div class="container ">
+    <div class="row justify-content-center">
+        <div class="col-md-4 bg-form">
+            <h2 class="text-center m-4">Cadastro de sabor</h2>
+            <div class="input-group mb-3">
+                <input class="form-control" [(ngModel)]="cardapio.sabor" name="sabor" type="text"
+                    placeholder="Insira o sabor" />
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">R$</span>
+                </div>
+                <input class="form-control" [(ngModel)]="cardapio.preco" name="preco" type="text"
+                    placeholder="Insira o preço" />
+                <div class="input-group-append">
+                    <span class="input-group-text">.00</span>
+                </div>
+            </div>
+            <div class="input-group mb-3">
+                <input class="form-control" [(ngModel)]="cardapio.tamanho" name="tamanho" type="text"
+                    placeholder="Insira o tamanho P, M ou G" />
+            </div>
+
+            <div class="input-group mb-3 ">
+                <input class="form-control" [(ngModel)]="borda" name="bordaRecheada" type="text"
+                    placeholder="Borda Recheada: Sim ou Não" />
+            </div>
+            <br>
+            <div class="text-center">
+                <button type="button" class="btn btn-color_green" (click)="salvar()">Salvar</button>
+                <a routerLink="/cardapio" class="btn btn-color_red m-3">Voltar</a><br>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</div>

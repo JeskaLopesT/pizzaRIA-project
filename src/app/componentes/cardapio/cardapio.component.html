@@ -1,0 +1,23 @@
+<div class="row text-center m-2">
+    <div class="col ">
+        <h1 class="text-uppercase title"> Cardápio </h1>
+    <a class="btn m-3 btn-color_green"routerLink="/cardapio-salvar">Adicionar nova pizza<img class="m-2" src="../../../assets/mais.svg" width="20px" /></a>
+    </div>
+</div>
+<div class="container">
+    <div class="row d-flex justify-content-center">
+        <div *ngFor="let cardapio of listaCardapio" class="card  m-2" style="width: 18rem;">
+            <div class="col">
+                <img class="card-img-top mt-3" src="../../../assets/casteloes.jpg" alt="Imagem de capa do card">
+                <div class="card-body text-center">
+                    <h5 class="card-title">{{ cardapio.sabor }}</h5>
+                    <p class="card-text">Preço: {{ cardapio.preco }}</p>
+                    <p class="card-text">Tamanho: {{ cardapio.tamanho }}</p>
+                    <p class="card-text">Borda Recheada: <span *ngIf="cardapio.bordaRecheada">Sim</span><span
+                            *ngIf="!cardapio.bordaRecheada">Não</span></p>
+                    <a href="#" class="btn btn-color_red">Adicionar ao pedido</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

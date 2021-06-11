@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*buttons*/
+
+.btn-color_green{
+    color: #0f5132 !important;
+    background-color: #d1e7dd !important;
+    border-color: #badbcc !important;
+}
+
+.btn-color_green:hover{
+    background-color: #86d3b0 !important;
+    border-color: #badbcc !important;
+}
+
+.btn-color_red{
+    color: #842029 !important;
+    background-color: #f8d7da !important;
+    border-color: #f5c2c7 !important;
+}
+
+.btn-color_red:hover{
+    background-color: #e29097 !important;
+    border-color: #f5c2c7 !important;
+}
