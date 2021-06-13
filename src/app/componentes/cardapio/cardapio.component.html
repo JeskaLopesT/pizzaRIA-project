@@ -1,21 +1,43 @@
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="../../../assets/7eaa474705efd3bb0d7fe1b881c4266b_pizza-integral-liquidificador-escarola-ricota-receitas-nestle_1200_600.jpg" alt="Primeiro Slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Ana's Pizza</h5>
+                <p>Bem vindo </p>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="row text-center m-2">
     <div class="col ">
-        <h1 class="text-uppercase title"> Cardápio </h1>
-    <a class="btn m-3 btn-color_green"routerLink="/cardapio-salvar">Adicionar nova pizza<img class="m-2" src="../../../assets/mais.svg" width="20px" /></a>
+        <h1 class="text-uppercase title m-5"> Cardápio </h1>
+        <a class="btn m-3 btn-color_green" routerLink="/cardapio-salvar">Adicionar nova pizza<img class="m-2"
+                src="../../../assets/mais.svg" width="20px" /></a>
     </div>
 </div>
 <div class="container">
-    <div class="row d-flex justify-content-center">
+    <div class="row d-flex justify-content-center ">
         <div *ngFor="let cardapio of listaCardapio" class="card  m-2" style="width: 18rem;">
-            <div class="col">
+            <div class="col text-center">
                 <img class="card-img-top mt-3" src="../../../assets/casteloes.jpg" alt="Imagem de capa do card">
+                <img class="" src="../../../assets/delete.png" width="10px">
                 <div class="card-body text-center">
                     <h5 class="card-title">{{ cardapio.sabor }}</h5>
                     <p class="card-text">Preço: {{ cardapio.preco }}</p>
                     <p class="card-text">Tamanho: {{ cardapio.tamanho }}</p>
                     <p class="card-text">Borda Recheada: <span *ngIf="cardapio.bordaRecheada">Sim</span><span
                             *ngIf="!cardapio.bordaRecheada">Não</span></p>
-                    <a href="#" class="btn btn-color_red">Adicionar ao pedido</a>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <a href="#" class="btn btn-color_red">Adicionar</a>
+                        </div>
+                        <div class="col-md-6">
+                            <button class="btn btn-info mr-3"
+                            [routerLink]="['/cardapio-atualizar', cardapio.id]">Editar</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

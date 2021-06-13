@@ -2,6 +2,12 @@
 *{
     font-family: 'Montserrat', sans-serif;
 }
+/*fonts*/
+
+@font-face {
+    font-family: pixel-operator;
+    src: url(assets/fonts/PixelOperatorMono8.ttf) format("opentype");
+  }
 
 /*buttons*/
 
