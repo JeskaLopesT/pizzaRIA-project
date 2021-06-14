@@ -9,19 +9,6 @@ ul.social-network{
     padding: 5px;
   }
   
-  .fa{
-    font-size: 35pt;
-    color: white;
-    padding: 10px;
-  }
-  .fa-facebook-square:hover{
-    color: #3b5998;
-  }
-  
-  .fa-instagram:hover{
-    color: #C13584;
-  }
-  
-  .fa-linkedin-square:hover{
-    color: #0072b1;
+  .icon{
+    width: 30px;
   }
