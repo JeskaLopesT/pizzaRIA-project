@@ -37,8 +37,19 @@
         <span class="visually-hidden">Next</span>
     </button>
 </div>
+<div class="jumbotron jumbotron-fluid pd-jumbotrom">
+    <div class="container mt-4">
+        <div class="row text-center" id="jumb">
+            <h1 class="display-4 mb-5">Nossas missões</h1>
+            <div class="col-md-3"><img src="../../../assets/icons/tomates.png" width="130px"><p>Ingredientes Frescos</p></div>
+            <div class="col md-3"><img src="../../../assets/icons/entrega-de-pizza.png" width="130px"><p>Receba sem contato com o entregador</p></div>
+            <div class="col md-3"><img src="../../../assets/icons/entregador.png" width="130px"><p>Entrega rapida</p></div>
+            <div class="col-md-3"><img src="../../../assets/icons/supermarket.png" width="130px"><p>Comerciantes locais</p></div>
+        </div>
+    </div>
+</div>
 
-<div class="">
+<div class="parallax">
     <div class="row text-center m-2">
         <div class="col ">
             <h1 class="title m-5 font-retro"> Cardápio </h1>
@@ -46,7 +57,7 @@
                     src="../../../assets/mais.svg" width="20px" /></a>
         </div>
     </div>
-    <div class="container parallax mb-5">
+    <div class="container mb-5">
         <div class="row d-flex justify-content-center ">
             <div *ngFor="let cardapio of listaCardapio" class="card  m-2" style="width: 18rem;">
                 <div class="col text-center">
