@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AtualizarCardapioComponent } from './atualizar-cardapio.component';
+import { DeleteCardapioComponent } from './delete-cardapio.component';
 
-describe('AtualizarCardapioComponent', () => {
-  let component: AtualizarCardapioComponent;
-  let fixture: ComponentFixture<AtualizarCardapioComponent>;
+describe('DeleteCardapioComponent', () => {
+  let component: DeleteCardapioComponent;
+  let fixture: ComponentFixture<DeleteCardapioComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ AtualizarCardapioComponent ]
+      declarations: [ DeleteCardapioComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AtualizarCardapioComponent);
+    fixture = TestBed.createComponent(DeleteCardapioComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

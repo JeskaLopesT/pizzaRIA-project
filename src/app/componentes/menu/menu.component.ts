@@ -13,21 +13,4 @@ export class MenuComponent implements OnInit {
 
  
   }
-
-  title = 'Ola Mundo';
-  recado = 'precisarei sair pois tenho uma reunião chata!!!';
-  apareca: boolean = false;
-
-  nomes = ["Cris", "Marcelo", "Jess", "Camis"];
-
-
-  mostrarTamanhoArray(){
-    if(this.apareca == false){
-      this.apareca = true
-    }else {
-      this.apareca = false
-    }
-
-    console.log(this.nomes.length);
-  }
 }

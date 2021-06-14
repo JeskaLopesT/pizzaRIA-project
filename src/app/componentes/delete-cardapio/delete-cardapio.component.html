@@ -1,0 +1,19 @@
+<div class="container d-flex justify-content-center align-items-center">
+
+    <div class="row mt-5">
+        <div class="col-md-8">
+            <div class="card text-center" style="width: 25rem;">
+                <div class="card-body mt-3">
+                    <h2 class="card-title mb-3"> Exclusão de Sabor</h2>
+                    <h5 class="card-title mb-3">Sabor: {{ cardapio.sabor }}</h5>
+                    <h5 class="card-title mb-3">Preço: {{ cardapio.preco }}</h5>
+                    <h5 class="card-title mb-3">Tamanho: {{ cardapio.tamanho }}</h5>
+                    <h5 class="card-title mb-3">Borda: {{ cardapio.bordaRecheada }}</h5>
+                    <p class="card alert-secondary border-danger mb-3"> Tem certeza que deseja excluir o sabor ? </p>
+                    <a (click)="deleteCardapio()" class="card-link btn btn-primary">Sim</a>
+                    <a routerLink="/cardapio" class="card-link btn btn-danger">Não</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

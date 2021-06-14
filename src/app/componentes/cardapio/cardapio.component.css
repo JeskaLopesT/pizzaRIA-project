@@ -1,8 +1,18 @@
 .card-img-top{
     border-radius: 60%;
-    height: 228px;
+    height: 170px;
+    width: 186px;
+    text-align: center;
 }
 
 .title{
     font-size: 70px;
+}
+
+.delete-icon{
+    position: absolute;
+    top: 10px;
+    left: 245px;
+    border: none;
+    background: none;
 }

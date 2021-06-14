@@ -1,6 +1,12 @@
-.ml-30{
-    margin-left: 55%;
+.font-retro{
+    font-family: pixel-operator;
+    margin: 0;
 }
+
+.ml-30{
+    margin-left: 40%;
+}
+
 
 .nav a{
     color:black;
