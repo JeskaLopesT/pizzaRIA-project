@@ -1,6 +1,4 @@
-#letreiro {
-    color: #a013b3;
-}
+
 .parallax {
     /* The image used */
     background-image: url("../../../assets/89959.jpg");
@@ -22,6 +20,43 @@
     background-color: #A82019;
 }
 
+.animacao{
+    border-right: 2px solid rgba(255, 255, 0.75);
+    margin:0 auto;
+    box-sizing:border-box;
+    font-family: 'Special Elite', monospace;
+    text-align: start;
+    font-size:3em;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.typing-animation{
+    animation: blinkCursor 700ms steps(40) infinite normal, typing 3s steps(40) 1s normal both;
+}
+@Keyframes blinkCursor {
+    from {
+        border-right-color:  rgba(14, 13, 13, 0.75);
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+@keyframes typing {
+    from{
+        width: 0;
+    }
+    to{
+        width: 6em;
+    }
+    
+}
+#carouselExampleCaptions{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+/*.carrousel{
+    border-radius:50%;
+}*/
 #imagem-perfil{
 transition: all 5s;
 }
