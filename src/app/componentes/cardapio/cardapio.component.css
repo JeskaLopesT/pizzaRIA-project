@@ -8,3 +8,11 @@
 .title{
     font-size: 70px;
 }
+
+.delete-icon{
+    position: absolute;
+    top: 10px;
+    left: 245px;
+    border: none;
+    background: none;
+}

@@ -9,6 +9,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { SalvarCardapioComponent } from './componentes/salvar-cardapio/salvar-cardapio.component';
 import { FormsModule } from '@angular/forms';
 import { AtualizarCardapioComponent } from './componentes/atualizar-cardapio/atualizar-cardapio.component';
+import { HomeComponent } from './componentes/home/home.component';
+import { DeleteCardapioComponent } from './componentes/delete-cardapio/delete-cardapio.component';
+import { FooterComponent } from './componentes/footer/footer.component'
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { AtualizarCardapioComponent } from './componentes/atualizar-cardapio/atu
     MenuComponent,
     CardapioComponent,
     SalvarCardapioComponent,
-    AtualizarCardapioComponent
+    AtualizarCardapioComponent,
+    HomeComponent,
+    DeleteCardapioComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,41 @@
+#letreiro {
+    color: #a013b3;
+}
+.parallax {
+    /* The image used */
+    background-image: url("../../../assets/89959.jpg");
+  
+    /* Set a specific height */
+    min-height: 300px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .jumbotron {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #A82019;
+}
+
+#imagem-perfil{
+transition: all 5s;
+}
+.img-container{
+position: absolute;
+overflow: hidden;
+border-radius:50%;
+width: 60%;
+background-color: gray;
+z-index: 1;
+}
+.d-flex{
+    display: flex;
+}
+.coluna-membro{
+height: 35-px;
+}
