@@ -26,8 +26,6 @@ export class CardapioComponent implements OnInit {
   ngOnInit() {
     this.findAll()
 
-
-
   }
 
   findAll(){

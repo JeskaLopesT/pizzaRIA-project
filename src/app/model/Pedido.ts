@@ -4,7 +4,7 @@ export class Pedido {
 
     public id: number;
     public cliente: any;
-    public cardapios: Cardapio[];
+    public cardapio: Cardapio;
     public horarioPedido: Date;
 
 }

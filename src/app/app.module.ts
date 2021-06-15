@@ -11,7 +11,8 @@ import { FormsModule } from '@angular/forms';
 import { AtualizarCardapioComponent } from './componentes/atualizar-cardapio/atualizar-cardapio.component';
 import { HomeComponent } from './componentes/home/home.component';
 import { DeleteCardapioComponent } from './componentes/delete-cardapio/delete-cardapio.component';
-import { FooterComponent } from './componentes/footer/footer.component'
+import { FooterComponent } from './componentes/footer/footer.component';
+import { PedidoComponent } from './componentes/pedido/pedido.component'
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FooterComponent } from './componentes/footer/footer.component'
     AtualizarCardapioComponent,
     HomeComponent,
     DeleteCardapioComponent,
-    FooterComponent
+    FooterComponent,
+    PedidoComponent
   ],
   imports: [
     BrowserModule,

@@ -5,6 +5,7 @@ import { CardapioComponent } from './componentes/cardapio/cardapio.component';
 import { DeleteCardapioComponent } from './componentes/delete-cardapio/delete-cardapio.component';
 import { HomeComponent } from './componentes/home/home.component';
 import { MenuComponent } from './componentes/menu/menu.component';
+import { PedidoComponent } from './componentes/pedido/pedido.component';
 import { SalvarCardapioComponent } from './componentes/salvar-cardapio/salvar-cardapio.component';
 
 const routes: Routes = [
@@ -16,7 +17,7 @@ const routes: Routes = [
   { path: 'cardapio-atualizar/:id', component: AtualizarCardapioComponent },
   { path: 'home', component: HomeComponent },
   { path: 'cardapio-deletar/:id', component: DeleteCardapioComponent },
-  
+  { path: 'pedido', component: PedidoComponent }
 
 ];
 

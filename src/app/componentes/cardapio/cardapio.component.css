@@ -7,9 +7,15 @@
 
 .title{
     font-size: 70px;
-    color:black;
-    background-color: white;
+    color:white;
+    
 }
+
+.font-weight-bold{
+    font-weight: bold;
+
+}
+    
 
 .font-retro{
     font-family: pixel-operator;
@@ -33,13 +39,9 @@
     
 }
 
-.bg{
-    background-color: whitesmoke;
-}
-
 .parallax{
     
-    background-image: url("../../../assets/89959.jpg");
+    background-image: url("../../../assets/bg-cardapio.jpg");
     min-height: 300px; 
     background-attachment: fixed;
     background-position: center;
