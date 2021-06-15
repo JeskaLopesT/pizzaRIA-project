@@ -11,7 +11,9 @@ import { SalvarCardapioComponent } from './componentes/salvar-cardapio/salvar-ca
 import { FormsModule } from '@angular/forms';
 import { AtualizarCardapioComponent } from './componentes/atualizar-cardapio/atualizar-cardapio.component';
 import { DeleteCardapioComponent } from './componentes/delete-cardapio/delete-cardapio.component';
-import { FooterComponent } from './componentes/footer/footer.component'
+import { FooterComponent } from './componentes/footer/footer.component';
+import { CadastroComponent } from './componentes/cadastro/cadastro.component';
+
 
 
 @NgModule({
@@ -23,7 +25,8 @@ import { FooterComponent } from './componentes/footer/footer.component'
     AtualizarCardapioComponent,
     HomeComponent,
     DeleteCardapioComponent,
-    FooterComponent
+    FooterComponent,
+    CadastroComponent
   ],
   imports: [
     BrowserModule,

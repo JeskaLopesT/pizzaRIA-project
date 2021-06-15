@@ -63,3 +63,8 @@ transform: translate(-10px);
     font-family:sans-serif;
     font-size: 16px;
 }
+
+.btn{
+    background-color: #DF9A22;
+    font-size: 18px;
+}
