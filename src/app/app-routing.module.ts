@@ -10,7 +10,7 @@ import { SalvarCardapioComponent } from './componentes/salvar-cardapio/salvar-ca
 
 const routes: Routes = [
 
-  { path: '', redirectTo:'cardapio', pathMatch: 'full' },
+  { path: '', redirectTo: 'cardapio', pathMatch: 'full' },
   { path: 'menu', component: MenuComponent },
   { path: 'cardapio', component: CardapioComponent },
   { path: 'cardapio-salvar', component: SalvarCardapioComponent },
