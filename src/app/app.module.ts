@@ -13,6 +13,7 @@ import { AtualizarCardapioComponent } from './componentes/atualizar-cardapio/atu
 import { DeleteCardapioComponent } from './componentes/delete-cardapio/delete-cardapio.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { PedidoComponent } from './componentes/pedido/pedido.component'
+import { PedidoService } from './service/pedido.service';
 
 
 @NgModule({
@@ -33,7 +34,9 @@ import { PedidoComponent } from './componentes/pedido/pedido.component'
     HttpClientModule,
     FormsModule
   ],
-  providers: [],
+  providers: [
+    PedidoService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

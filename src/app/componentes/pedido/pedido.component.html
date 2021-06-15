@@ -3,12 +3,13 @@
         <h2 class="title-text">Pedidos</h2>
     </div>
     <div class="pedidosList">
-        <ul class="list-group">
-            <li class="list-group-item list-group-item-success ">Pedido nº1</li>
-            <li class="list-group-item">Pizza sabor: Mussarela</li>
+        <ul class="list-group" *ngFor="let pedido of listaPedido">
+            <button class="btn btn-primary" (click)="getById()"></button>
+            <li class="list-group-item list-group-item-success ">Pedido nº{{pedido.id}}</li>
+            <li class="list-group-item">Pizza sabor: Mussarela </li>
             <li class="list-group-item">Quantidade: 3</li>
-            <li class="list-group-item">Valor: R$60,00</li>
             <li class="list-group-item">Pagamento: Cartão</li>
+            <li class="list-group-item list-group-item-secondary">Valor Total: R$60,00</li>
         </ul>
     </div>
 </div>
